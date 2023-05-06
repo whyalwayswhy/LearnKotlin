@@ -1,0 +1,29 @@
+
+/**
+ * TODO apply
+ * 1.apply函数返回类型 都是本身
+ * 2.apply函数的匿名函数持有的是this 即自己本身
+ *
+ * TODO let
+ * 1.let函数返回类型的是最后一行
+ * 2.let函数里持有的是it
+ *
+ * TODO run 可以调用匿名函数 或者 具名函数
+ * 1.run函数返回类型是匿名函数最后一行   和let一样
+ * 2.run函数匿名函数里面持有的是this    和apply一样
+ *
+ * TODO with  with和run基本上一样 只不过是使用的时候不同  with是嵌套使用的 run是链式调用的
+ * 1.with函数返回类型是匿名函数最后一行
+ * 2.with函数匿名函数里持有的是this
+ *
+ * TODO also
+ * 1.also函数返回类型是其本身 不受最后一行影响  和apply一样
+ * 2.also函数匿名函数里面持有的是it      和let一样
+ *
+ * TODO takeIf内置函数  obj.takeIf()
+ * 1.takeIf()内的为true时 返回obj本身 为false的话返回null  里面是it
+ * 2.常和空合并操作符 ?:一起合并使用
+ *
+ * TODO takeUnless内置函数
+ * 1.takeUnless内的为false时 返回obj本身 为true的话返回null  里面是it
+ * 2.takeUnless 常和isNullOrBlank() 与?: 一起使用
